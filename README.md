@@ -1,35 +1,47 @@
-# JobMatch - Sistema de Compatibilidade
+# JobMatch — Sistema de Compatibilidade entre Candidatos e Vagas
 
 ## Sobre o projeto
-O JobMatch é um sistema desenvolvido em Python que analisa a compatibilidade entre candidatos e vagas de emprego com base nas habilidades cadastradas.
 
-O sistema identifica as habilidades que o candidato já possui e as que ainda precisa desenvolver para atender aos requisitos de uma vaga.
+O JobMatch é uma aplicação desenvolvida em Python que calcula a compatibilidade entre candidatos e vagas de emprego com base nas habilidades cadastradas.
 
-## Tecnologias utilizadas
-- Python
-- SQLite
-- SQL
-- Git
-- GitHub
+O sistema identifica as habilidades que o candidato possui e aquelas que ainda precisa desenvolver para atender aos requisitos de uma vaga.
+
+O projeto foi criado para praticar lógica de programação, manipulação de dados, validação de entradas e integração com banco de dados.
 
 ## Funcionalidades
+
 - Cadastro de candidatos.
 - Cadastro de vagas de emprego.
 - Listagem de candidatos cadastrados.
 - Listagem de vagas cadastradas.
-- Cálculo de compatibilidade entre candidato e vaga.
+- Cálculo de compatibilidade entre candidatos e vagas.
 - Identificação de habilidades compatíveis e faltantes.
 - Validação dos dados informados.
 - Prevenção de cadastros duplicados.
-- Armazenamento de dados com SQLite.
+- Armazenamento de dados utilizando SQLite.
 
-# Como executar o projeto
+## Tecnologias utilizadas
+
+- **Python:** lógica de programação e desenvolvimento da aplicação.
+- **SQLite:** armazenamento dos dados.
+- **SQL:** consulta e manipulação dos dados no banco de dados.
+- **Git:** controle de versão.
+- **GitHub:** hospedagem do código-fonte.
+
+## Como executar o projeto
+
 1. Instale o Python no computador.
-2. Baixe ou clone o repositório do projeto.
+2. Clone este repositório ou baixe os arquivos do projeto.
 3. Abra a pasta do projeto no PyCharm.
-4. Execute o arquivo `main. py`.
+4. Configure um interpretador Python compatível com o projeto.
+5. Execute o arquivo `main.py`.
 
-# Objetivo do projeto
-O JobMatch visa facilitar análise de compatibilidade entre candidatos e vagas de emprego, identificando habilidades correspondentes e competências que precisam ser desenvolvidas.
+## Objetivo do projeto
 
-Desenvolvido em python e SQLite, o sistema gerencia os dados e calcula a compatibilidade com base nas habilidades exigidas pelas vagas.
+O JobMatch visa calcular a compatibilidade entre candidatos e vagas de emprego, destacando as habilidades correspondentes e as competências que precisam ser desenvolvidas.
+
+O projeto também representa uma oportunidade de aplicar conhecimentos de Python, lógica de programação, SQL e persistência de dados com SQLite em uma aplicação prática.
+
+---
+
+**Projeto desenvolvido para fins de aprendizado e construção de portfólio em desenvolvimento de software.**
